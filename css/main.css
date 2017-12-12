@@ -2571,7 +2571,7 @@
 
 						#header > nav ul li a:active {
 							background: #fff;
-							color: #4acaa8 !important;
+							color: #4acaa8;
 						}
 
 					#header > nav ul li:first-child {
