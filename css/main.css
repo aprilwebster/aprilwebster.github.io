@@ -1567,18 +1567,18 @@
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: solid 1px #e4e4e4;
-		color: inherit;
+		border-bottom: solid 1px #4acaa8;
+		color: #4acaa8 !important;
 		text-decoration: none;
 	}
 
 		a:hover {
-			border-bottom-color: transparent;
-			color: #4acaa8 !important;
+			border-bottom-color: #338d75 !important;
+			color: #338d75 !important;
 		}
 
 	strong, b {
-		color: #777;
+		color: #4acaa8;
 		font-weight: 700;
 	}
 
@@ -2569,7 +2569,7 @@
 						text-decoration: none;
 					}
 
-						#header > nav ul li a.active {
+						#header > nav ul li a:active {
 							background: #fff;
 							color: #4acaa8 !important;
 						}
