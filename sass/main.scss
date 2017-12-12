@@ -65,17 +65,20 @@
 	a {
 		@include vendor('transition', ('color #{_duration(transition)} ease-in-out', 'border-color #{_duration(transition)} ease-in-out'));
 		border-bottom: solid 1px _palette(border2);
-		color: inherit;
+		color: #4acaa8 !important;
 		text-decoration: none;
 
 		&:hover {
-			border-bottom-color: transparent;
-			color: _palette(accent1, bg) !important;
+			// border-bottom-color: transparent;
+			// color: _palette(accent1, bg) !important;
+			border-bottom-color: #338d75 !important;
+			color: #338d75 !important;
 		}
 	}
 
 	strong, b {
-		color: _palette(fg-bold);
+		// color: _palette(fg-bold);
+		color: #4acaa8;
 		font-weight: _font(weight-bold);
 	}
 
