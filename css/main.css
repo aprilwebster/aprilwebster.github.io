@@ -3090,5 +3090,40 @@
 			.button {
 				padding: 0;
 			}
+			/* ————————————————————————————————————————————— Overrides for larger avatar ————————————————————————————————————————————— */
+
+#header {
+	width: 28em !important;
+	/* ensure the off-canvas transform matches */
+	transform: translateX(0) !important;
+  }
+  #wrapper {
+	padding-right: 28em !important;
+  }
+  
+  /* avatar inside header */
+  #header > header .avatar {
+	width: 25em !important;  /* ≈400px */
+  }
+  
+  /* off-canvas states (for medium and small breakpoints) */
+  body.header-visible #header {
+	transform: translateX(28em) !important;
+  }
+  @media screen and (max-width: 1024px) {
+	#header {
+	  width: 28em !important;
+	  transform: translateX(28em) !important;
+	}
+	#wrapper {
+	  padding-right: 0 !important;
+	}
+  }
+  @media screen and (max-width: 736px) {
+	#header {
+	  width: 28em !important;
+	  transform: translateX(28em) !important;
+	}
+  }
 
 	}
