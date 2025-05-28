@@ -3090,7 +3090,11 @@
 			.button {
 				padding: 0;
 			}
-			/* ————————————————————————————————————————————— Overrides for larger avatar ————————————————————————————————————————————— */
+			
+
+	}
+
+/* ————————————————————————————————————————————— Overrides for larger avatar ————————————————————————————————————————————— */
 
 #header {
 	width: 28em !important;
@@ -3125,5 +3129,3 @@
 	  transform: translateX(28em) !important;
 	}
   }
-
-	}
