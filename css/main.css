@@ -2583,7 +2583,8 @@
 
 	#wrapper {
 		background: #fff;
-		padding-right: 23em;
+		/* padding-right: 23em; */
+		padding-right: 28em;
 	}
 
 /* Main */
