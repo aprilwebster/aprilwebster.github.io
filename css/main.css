@@ -2505,7 +2505,8 @@
 				display: block;
 				/* margin: 0 auto 2.25em auto; */
 				margin: 0 auto 1em auto;
-				width: 10em;
+				/* width: 10em;  */
+				width: 25em; 
 			}
 
 			#header > header h1 {
